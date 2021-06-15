@@ -16,7 +16,7 @@ return [
     | you may use many connections at once using the Database library.
     |
     */
-   test
+
     'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
@@ -49,10 +49,10 @@ return [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '3306'),
+            'port' => env('DB_PORT', '8889'),
             'database' => env('DB_DATABASE', 'laravel8ecommercedb'),
             'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', ''),
+            'password' => env('DB_PASSWORD', 'root'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
